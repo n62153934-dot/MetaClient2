@@ -10,7 +10,7 @@
 	"entrypoints": {
 		"main": ["com.example.ExampleMod"]
 	},
-	"mixins": ["metaclient.mixins.json"],
+	"mixins": ["modid.mixins.json"],
 	"depends": {
 		"fabricloader": ">=0.16.0",
 		"minecraft": "~1.21.1",
