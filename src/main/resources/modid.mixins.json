@@ -1,14 +1,12 @@
 {
 	"required": true,
+	"minVersion": "0.8",
 	"package": "com.example.mixin",
-	"compatibilityLevel": "JAVA_25",
-	"mixins": [
-		"ExampleMixin"
-	],
+	"compatibilityLevel": "JAVA_21",
+	"refmap": "metaclient.refmap.json",
+	"mixins": [],
+	"client": [],
 	"injectors": {
 		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
 	}
 }
