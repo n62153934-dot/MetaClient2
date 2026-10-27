@@ -3,12 +3,13 @@
   "id": "metaclient",
   "version": "1.0.0",
   "name": "MetaClient",
-  "description": "MetaClient by n62153934-dot - M Edition",
+  "description": "MetaClient by n62153934-dot",
   "authors": ["n62153934-dot"],
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
-    "main": ["com.example.ExampleMod"]
+    "main": ["com.example.ExampleMod"],
+    "client": ["com.example.MetaClientHUD"]
   },
   "mixins": ["modid.mixins.json"],
   "depends": {
