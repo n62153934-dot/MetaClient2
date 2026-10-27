@@ -1,19 +1,20 @@
 {
-	"schemaVersion": 1,
-	"id": "metaclient",
-	"version": "1.0.0",
-	"name": "MetaClient",
-	"description": "MetaClient by n62153934-dot",
-	"authors": ["n62153934-dot"],
-	"license": "MIT",
-	"environment": "*",
-	"entrypoints": {
-		"main": ["com.example.ExampleMod"]
-	},
-	"mixins": ["modid.mixins.json"],
-	"depends": {
-		"fabricloader": ">=0.16.0",
-		"minecraft": "~1.21.1",
-		"java": ">=21"
-	}
+  "schemaVersion": 1,
+  "id": "metaclient",
+  "version": "1.0.0",
+  "name": "MetaClient",
+  "description": "MetaClient by n62153934-dot - M Edition",
+  "authors": ["n62153934-dot"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.ExampleMod"]
+  },
+  "mixins": ["modid.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  },
+  "icon": "assets/modid/icon.png"
 }
